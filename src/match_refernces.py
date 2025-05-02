@@ -1,10 +1,15 @@
+import os
 import json
 import pandas as pd
+from dotenv import load_dotenv
 import google.generativeai as genai
 
 
-# Initialize Gemini
-genai.configure(api_key="AIzaSyDfxOZ9BLScnRDwkEwqsj-CRUfLlrEvx4A")
+# Load environment variables from .env file
+load_dotenv()
+
+api_key = os.environ.get("GEMINI_API_KEY")
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 
