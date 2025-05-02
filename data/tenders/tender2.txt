@@ -1,0 +1,11 @@
+PROJECT NAME: Primary School Renovation
+LOCATION: Leipzig, Germany
+PROJECT TYPE: Renovation
+KOSTENGRUPPEN:
+  - KG 300: €600,000
+  - KG 400: €300,000
+PHASES: Planning, Construction
+SUBMISSION DEADLINE: 1 July 2025
+
+DESCRIPTION:
+The project includes modernization of classrooms, heating systems, and accessibility enhancements.

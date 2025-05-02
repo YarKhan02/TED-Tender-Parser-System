@@ -1,0 +1,149 @@
+[
+    {
+        "filename": "tender2.txt",
+        "fields": {
+            "Project name": "Primary School Renovation",
+            "Location": "Leipzig, Germany",
+            "Project type": "Renovation",
+            "Phases": "Planning, Construction",
+            "Submission deadline": "1 July 2025",
+            "Budget": "€900,000"
+        },
+        "matches": [
+            {
+                "reference": {
+                    "Project Name": "Berlin Central Library Renovation",
+                    "Location": "Berlin",
+                    "Budget": "€1,200,000",
+                    "Project Type": "Renovation",
+                    "Phases": "Design, Construction",
+                    "Certifications": "BREEAM Excellent"
+                },
+                "score": 0.75,
+                "reason": "The project types are identical (Renovation). The phases are largely overlapping (Planning is similar to Design, and Construction is present in both). While the budgets differ, they are in the same order of magnitude. The locations, while different cities, are both in Germany, suggesting some relevant regional experience. The main difference is the scale - library vs school."
+            },
+            {
+                "reference": {
+                    "Project Name": "Hamburg Cultural Center",
+                    "Location": "Hamburg",
+                    "Budget": "€3,100,000",
+                    "Project Type": "Restoration",
+                    "Phases": "Planning, Construction",
+                    "Certifications": "None"
+                },
+                "score": 0.6,
+                "reason": "The projects share similar phases (Planning, Construction) and both involve working on existing structures (Renovation vs. Restoration). However, the project types differ, the locations are different cities, and the budgets vary significantly, impacting the overall match."
+            },
+            {
+                "reference": {
+                    "Project Name": "Stuttgart Children Hospital Wing B",
+                    "Location": "Stuttgart",
+                    "Budget": "€2,950,000",
+                    "Project Type": "Extension",
+                    "Phases": "Design, Construction",
+                    "Certifications": "LEED Silver"
+                },
+                "score": 0.4,
+                "reason": "While both projects involve construction and share the 'Construction' phase, the project type differs (Renovation vs. Extension). The location is in Germany, but different cities. The budget also varies significantly, indicating different scales. Overall similarity is low."
+            }
+        ]
+    },
+    {
+        "filename": "tender3.txt",
+        "fields": {
+            "Project name": "Municipal Library Refurbishment",
+            "Location": "Frankfurt am Main, Germany",
+            "Project type": "Refurbishment",
+            "Phases": "Design, Construction",
+            "Submission deadline": "30 May 2025",
+            "Budget": "€650,000"
+        },
+        "matches": [
+            {
+                "reference": {
+                    "Project Name": "Berlin Central Library Renovation",
+                    "Location": "Berlin",
+                    "Budget": "€1,200,000",
+                    "Project Type": "Renovation",
+                    "Phases": "Design, Construction",
+                    "Certifications": "BREEAM Excellent"
+                },
+                "score": 0.7,
+                "reason": "The project types and phases are identical, which is a strong match. The budget is significantly different, but the location, while different cities, is still within Germany. The overall similarity is fairly high, warranting a score of 0.7."
+            },
+            {
+                "reference": {
+                    "Project Name": "Hamburg Cultural Center",
+                    "Location": "Hamburg",
+                    "Budget": "€3,100,000",
+                    "Project Type": "Restoration",
+                    "Phases": "Planning, Construction",
+                    "Certifications": "None"
+                },
+                "score": 0.6,
+                "reason": "The reference project and the tender share similarities in project type (Refurbishment/Restoration) and phases (Construction is a common phase). However, the budget differs significantly, and the locations are different cities within Germany. General similarity is moderate."
+            },
+            {
+                "reference": {
+                    "Project Name": "Munich Tech Campus",
+                    "Location": "Munich",
+                    "Budget": "€4,000,000",
+                    "Project Type": "New Construction",
+                    "Phases": "Planning, Design",
+                    "Certifications": "DGNB Platinum"
+                },
+                "score": 0.4,
+                "reason": "The reference project shares the 'Design' phase and is located in Germany, indicating some similarity. However, the project types (Refurbishment vs. New Construction) and budgets (€650,000 vs. €4,000,000) are significantly different, and the locations, while both German cities, are distinct."
+            }
+        ]
+    },
+    {
+        "filename": "tender1.txt",
+        "fields": {
+            "Project name": "City Hospital Expansion",
+            "Location": "Stuttgart, Germany",
+            "Budget": "€3,000,000",
+            "Project type": "New Construction",
+            "Phases": "Planning, Design, Construction",
+            "Submission deadline": "15 June 2025"
+        },
+        "matches": [
+            {
+                "reference": {
+                    "Project Name": "HealthCare West Wing",
+                    "Location": "Stuttgart",
+                    "Budget": "€2,800,000",
+                    "Project Type": "New Construction",
+                    "Phases": "Planning, Design, Construction",
+                    "Certifications": "LEED Gold"
+                },
+                "score": 0.9,
+                "reason": "The reference project closely matches the tender. Both are new construction projects in Stuttgart with similar budgets and phases. The project names are also quite similar, both relating to healthcare facilities."
+            },
+            {
+                "reference": {
+                    "Project Name": "Munich Tech Campus",
+                    "Location": "Munich",
+                    "Budget": "€4,000,000",
+                    "Project Type": "New Construction",
+                    "Phases": "Planning, Design",
+                    "Certifications": "DGNB Platinum"
+                },
+                "score": 0.7,
+                "reason": "The projects share the 'New Construction' type and have overlapping phases ('Planning', 'Design'). The budget is comparable, and the location is in the same country, albeit different cities. The 'Construction' phase is missing from the reference project."
+            },
+            {
+                "reference": {
+                    "Project Name": "Berlin Central Library Renovation",
+                    "Location": "Berlin",
+                    "Budget": "€1,200,000",
+                    "Project Type": "Renovation",
+                    "Phases": "Design, Construction",
+                    "Certifications": "BREEAM Excellent"
+                },
+                "score": 0.4,
+                "reason": "The projects are similar in that they both involve building projects in Germany and include design and construction phases. However, they differ in project type (new construction vs. renovation) and location (Stuttgart vs. Berlin). The budget is also significantly different, further reducing the overall similarity."
+            }
+        ]
+    }
+]

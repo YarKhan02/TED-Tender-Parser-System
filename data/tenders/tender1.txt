@@ -1,0 +1,11 @@
+PROJECT NAME: City Hospital Expansion
+LOCATION: Stuttgart, Germany
+PROJECT TYPE: New Construction
+KOSTENGRUPPEN:
+  - KG 300 (Building construction): €2,000,000
+  - KG 400 (Technical installations): €1,000,000
+PHASES: Planning, Design, Construction
+SUBMISSION DEADLINE: 15 June 2025
+
+DESCRIPTION:
+This project involves the expansion of the City Hospital with new medical wings and upgraded infrastructure.

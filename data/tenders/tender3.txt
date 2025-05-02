@@ -1,0 +1,11 @@
+PROJECT NAME: Municipal Library Refurbishment
+LOCATION: Frankfurt am Main, Germany
+PROJECT TYPE: Refurbishment
+KOSTENGRUPPEN:
+  - KG 300: €400,000
+  - KG 400: €250,000
+PHASES: Design, Construction
+SUBMISSION DEADLINE: 30 May 2025
+
+DESCRIPTION:
+A comprehensive refurbishment of the public library to improve energy efficiency and user experience.
