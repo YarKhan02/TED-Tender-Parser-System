@@ -91,6 +91,7 @@ Use the **Export Filtered Tenders** button in the sidebar to download filtered r
 ## Screenshot
 
 ![Dashboard Screenshot](dashboard.png)
+![Dashboard Screenshot](details.png)
 ![Dashboard Screenshot](filtered_csv.png)
 
 ---
